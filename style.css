@@ -1,0 +1,167 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F3FEB8;
+    font-family: sans-serif;
+}
+header img{
+    width:100%;
+}
+.heading{
+    margin-top: -150px;
+    margin-left: 40px;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif ;
+    text-align: center;
+}
+.navmain{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    opacity: 0.66;
+}
+.navmain a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    height:50px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFDE4D;
+    list-style: none;
+    margin-top: 120px;
+}
+.nav a{
+    color: white;
+}
+
+/* main */
+main{
+    margin-top: 80px;
+}
+
+.container{
+    margin-left: 10%;
+}
+
+.item{
+    display: grid;
+    grid-template-rows: 400px 100px;
+    /* border: 2px solid orange; */
+    width: 1000px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.name{
+    margin-top: 50px;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 20px;
+}
+.info{
+    font-size: 17px;
+    color: rgb(152, 101, 5);
+}
+.para{
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.info-display{
+    display: flex;
+}
+.item img{ 
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+
+/* box-shadow taken from CSS Scan */
+
+.line{
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 20px;
+    color: orange;
+    height: 2px;
+    background-color: orange;
+    border: 0px solid orange;
+}
+.link{
+    border: 2px solid orange;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: orange;
+   
+}
+.link:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+
+#home{
+    margin-top: 20px;
+}
+
+.end-line{
+    width: 900px;
+   margin-left: 15%;
+   height: 2px;
+   color: orange;
+   background-color: orange;
+   border: none;
+}
+.footer{
+    height:40vh ;
+    width: 100%;
+    background-color: #FF4C4C;
+    margin-top: 100px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footmain{
+    height:20vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footicons{
+    height:20vh ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+}
+
